@@ -18,6 +18,10 @@ namespace ConsoleApp1
 
             Debug.WriteLine("el volumen es "+ srv.CalculoVolumen(encomienda) );
 
+            Debug.WriteLine("el precio del envio es "+ srv.PrecioEnvio(encomienda) );
+
+
+
         }
     }
 }

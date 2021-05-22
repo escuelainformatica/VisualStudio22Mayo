@@ -26,9 +26,13 @@ namespace ConsoleApp1.servicio
             //todo: falta implementar el codigo
             return resultado;
         }
-        public int PrecioEncomienda(Encomienda enco)
+        public double PrecioEnvio(Encomienda enco)
         {
-            int resultado=0;
+            // volumen * 2.3
+            double resultado=0;
+
+            resultado=CalculoVolumen(enco) * 2.3;
+
             //todo: falta implementar
             return resultado;
         }
