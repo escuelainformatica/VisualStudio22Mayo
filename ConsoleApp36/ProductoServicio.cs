@@ -28,7 +28,6 @@ namespace ConsoleApp36
             arreglo[0].NombreProducto="cocacola";
             arreglo[0].Precio=100;
             arreglo[0].Categoria="bebida";
-
             // usar el constructor
             arreglo[1]=new Producto("Fanta",1000,"bebida");
 
